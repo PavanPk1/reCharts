@@ -1,0 +1,20 @@
+.pieChartContainer {
+  display: flex;
+  flex-direction: column;
+}
+.groupContainer {
+  background-color: #1c1c2b;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+@media (ax-width: 768px) {
+  .groupContainer {
+    width: 100%;
+  }
+}
+.groupHeading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #94a3b8;
+}
